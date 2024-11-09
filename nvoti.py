@@ -23,7 +23,8 @@ def calculator_module():
 
         again()
     elif what_to_do == "minus" or what_to_do  == "-":
-        v1 - v2
+        # fixed a thing by...... nah i dont do comments
+        result = v1 - v2
         print(result)
 
         again()
